@@ -1,0 +1,91 @@
+[debug] [2025-08-24T11:19:38.626Z] ----------------------------------------------------------------------
+[debug] [2025-08-24T11:19:38.634Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\M S I\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init functions
+[debug] [2025-08-24T11:19:38.634Z] CLI Version:   14.12.1
+[debug] [2025-08-24T11:19:38.634Z] Platform:      win32
+[debug] [2025-08-24T11:19:38.634Z] Node Version:  v22.14.0
+[debug] [2025-08-24T11:19:38.635Z] Time:          Sun Aug 24 2025 16:49:38 GMT+0530 (India Standard Time)
+[debug] [2025-08-24T11:19:38.635Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-08-24T11:19:38.637Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2025-08-24T11:19:38.854Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-08-24T11:19:38.854Z] > authorizing via signed-in user (krishna1052004@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\M S I\Desktop\Netflix-GPT
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[debug] [2025-08-24T11:19:39.490Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2025-08-24T11:19:39.490Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2025-08-24T11:22:25.906Z] ExitPromptError: User force closed the prompt with SIGINT
+    at Interface.sigint (C:\Users\M S I\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\create-prompt.js:101:37)
+    at Interface.emit (node:events:518:28)
+    at Interface.emit (node:domain:489:12)
+    at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1124:18)
+    at ReadStream.onkeypress (node:internal/readline/interface:263:20)
+    at ReadStream.emit (node:events:530:35)
+    at ReadStream.emit (node:domain:489:12)
+    at emitKeys (node:internal/readline/utils:370:14)
+    at emitKeys.next (<anonymous>)
+    at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2025-08-24T11:24:27.097Z] ----------------------------------------------------------------------
+[debug] [2025-08-24T11:24:27.099Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\M S I\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init functions
+[debug] [2025-08-24T11:24:27.099Z] CLI Version:   14.12.1
+[debug] [2025-08-24T11:24:27.099Z] Platform:      win32
+[debug] [2025-08-24T11:24:27.099Z] Node Version:  v22.14.0
+[debug] [2025-08-24T11:24:27.100Z] Time:          Sun Aug 24 2025 16:54:27 GMT+0530 (India Standard Time)
+[debug] [2025-08-24T11:24:27.100Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-08-24T11:24:27.257Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-08-24T11:24:27.257Z] > authorizing via signed-in user (krishna1052004@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\M S I\Desktop\Netflix-GPT
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-08-24T11:24:29.431Z] Using project from CLI flag: netflixgpt-81199
+[debug] [2025-08-24T11:24:29.432Z] Checked if tokens are valid: false, expires at: 1755703339140
+[debug] [2025-08-24T11:24:29.432Z] Checked if tokens are valid: false, expires at: 1755703339140
+[debug] [2025-08-24T11:24:29.433Z] > refreshing access token with scopes: []
+[debug] [2025-08-24T11:24:29.434Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-08-24T11:24:29.434Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-08-24T11:24:29.681Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-08-24T11:24:29.681Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-08-24T11:24:29.688Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/netflixgpt-81199 [none]
+[debug] [2025-08-24T11:24:30.116Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/netflixgpt-81199 403
+[debug] [2025-08-24T11:24:30.116Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/netflixgpt-81199 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2025-08-24T11:24:30.117Z] Request to https://firebase.googleapis.com/v1beta1/projects/netflixgpt-81199 had HTTP Error: 403, The caller does not have permission
+[debug] [2025-08-24T11:24:30.230Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/netflixgpt-81199 had HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\M S I\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\M S I\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to get Firebase project netflixgpt-81199. Please make sure the project exists and your account has permission to access it.
