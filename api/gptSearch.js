@@ -19,7 +19,7 @@ export default async function handler(req, res) {
 
     // Call OpenAI GPT model
     const completion = await client.chat.completions.create({
-      model: "gpt-4o-mini", // cheaper & faster, adjust if needed
+      model: "gpt-3.5-turbo", // cheaper & faster, adjust if needed
       messages: [
         {
           role: "system",
