@@ -1,4 +1,4 @@
-// api/gptSearch.js
+// /pages/api/gptSearch.js
 import OpenAI from "openai";
 
 export default async function handler(req, res) {
@@ -8,18 +8,16 @@ export default async function handler(req, res) {
 
   try {
     const { query } = req.body;
-
     if (!query) {
       return res.status(400).json({ error: "Query is required" });
     }
 
     const client = new OpenAI({
-      apiKey: process.env.OPENAI_API_KEY, // stored securely in Vercel
+      apiKey: process.env.OPENAI_API_KEY,
     });
 
-    // Call OpenAI GPT model
     const completion = await client.chat.completions.create({
-      model: "gpt-3.5-turbo", // cheaper & faster, adjust if needed
+      model: "gpt-3.5-turbo", // fallback safe model
       messages: [
         {
           role: "system",
@@ -31,11 +29,16 @@ export default async function handler(req, res) {
       temperature: 0.7,
     });
 
-    const result = completion.choices[0].message.content;
+    const result = completion?.choices?.[0]?.message?.content || "";
+    if (!result) {
+      return res.status(500).json({ error: "No GPT results returned" });
+    }
 
     res.status(200).json({ result });
   } catch (error) {
     console.error("OpenAI API Error:", error);
-    res.status(500).json({ error: "Failed to fetch from OpenAI" });
+    res
+      .status(500)
+      .json({ error: error.message || "Failed to fetch from OpenAI" });
   }
 }
