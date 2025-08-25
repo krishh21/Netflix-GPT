@@ -5,7 +5,7 @@
 ![Tailwind](https://img.shields.io/badge/Styling-TailwindCSS-38B2AC?logo=tailwind-css&logoColor=white)  
 ![Firebase](https://img.shields.io/badge/Backend-Firebase-FFCA28?logo=firebase&logoColor=black)  
 ![TMDB](https://img.shields.io/badge/API-TMDB-01B4E4?logo=tmdb&logoColor=white)  
-![Gemini](https://img.shields.io/badge/AI-Gemini%20API-4285F4?logo=google&logoColor=white)  
+![OpenAi](https://img.shields.io/badge/AI-OPENAI%20API-4285F4?logo=google&logoColor=white)  
 ![Vercel](https://img.shields.io/badge/Deploy-Vercel-000000?logo=vercel&logoColor=white)  
 ![GitHub](https://img.shields.io/badge/Version%20Control-GitHub-181717?logo=github&logoColor=white)  
 
