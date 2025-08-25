@@ -10,7 +10,7 @@
 ![GitHub](https://img.shields.io/badge/Version%20Control-GitHub-181717?logo=github&logoColor=white)  
 
 Netflix GPT is a modern **Netflix clone** that allows users to browse movies, authenticate securely, and get **personalized AI-powered movie recommendations**.  
-Built with **React, Firebase, TMDB API, and Gemini AI**.  
+Built with **React, Firebase, TMDB API, and Open AI**.  
 
 ---
 
@@ -52,7 +52,7 @@ Check out the live demo here: 👉 [Netflix GPT](https://netflix-gpt-eight-tawny
 
 ### 🔹 APIs:
 - TMDB API (Movie Data)  
-- Gemini AI API (AI Recommendations)  
+- OpenAI API (AI Recommendations)  
 
 ### 🔹 Tools:
 - Git & GitHub (Version Control)  
@@ -63,7 +63,7 @@ Check out the live demo here: 👉 [Netflix GPT](https://netflix-gpt-eight-tawny
 ## ⚡ Usage
 1. **Sign in** with Firebase authentication to unlock personalized features.  
 2. **Browse movies** and explore details using TMDB API.  
-3. **Enter prompts** to get AI-powered personalized recommendations from Gemini AI.  
+3. **Enter prompts** to get AI-powered personalized recommendations from OpenAI.  
 
 ---
 
@@ -89,7 +89,7 @@ REACT_APP_FIREBASE_PROJECT_ID=your_firebase_project_id
 REACT_APP_FIREBASE_STORAGE_BUCKET=your_firebase_storage_bucket
 REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your_firebase_sender_id
 REACT_APP_FIREBASE_APP_ID=your_firebase_app_id
-REACT_APP_GEMINI_API_KEY=your_gemini_api_key
+REACT_APP_OPEN_API_KEY=your_open_api_key
 
 
 Start the development server:
