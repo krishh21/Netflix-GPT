@@ -115,11 +115,10 @@ Visit http://localhost:3000
 Contributions, issues, and feature requests are welcome!
 Feel free to fork this repo and create a pull request.
 
-📜 License
 
-This project is MIT licensed.
 
 👨‍💻 Author
 
 Developed by Krishna Yadav 🚀
+
 Frontend Developer | MERN | React Native | Firebase | AI Integrations
